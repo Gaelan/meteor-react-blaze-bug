@@ -1,0 +1,15 @@
+<head>
+  <title>react-blaze-bug</title>
+</head>
+
+<body>
+  <button class='blaze'>Switch to Blaze</button>
+
+  <div>
+    {{# if showReact }}
+      {{> React component=ReactComponent }}
+    {{ else }}
+      Hi from Blaze!
+    {{/ if }}
+  </div>
+</body>
